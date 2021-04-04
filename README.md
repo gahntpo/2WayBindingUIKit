@@ -48,5 +48,11 @@ These create a data stream from a CurrentValueSubject to the UI control. A secon
        textField.createBinding(with: textSubject, storeIn: &subscriptions)
    }
    
+   
+**This is how SwiftUI does it:**
+   ![](images/Screenshot%20SwiftUI.png)
+   
+**This is how you can do it now in UIKit:**
+   ![](images/Screenshot%20UIkit.png)
 
 
