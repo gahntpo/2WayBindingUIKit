@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171C85612619B9EB000BDB18 /* UISwitch+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85602619B9EB000BDB18 /* UISwitch+Publisher.swift */; };
+		171C85642619BEE0000BDB18 /* UIKeyboard publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85632619BEE0000BDB18 /* UIKeyboard publisher.swift */; };
+		171C85672619BEFD000BDB18 /* UIScrollView+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85662619BEFD000BDB18 /* UIScrollView+Publisher.swift */; };
+		171C856A2619C04D000BDB18 /* ScrollTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85692619C04D000BDB18 /* ScrollTestViewController.swift */; };
 		17713E4026121A800046A613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E3F26121A800046A613 /* AppDelegate.swift */; };
 		17713E4226121A800046A613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E4126121A800046A613 /* SceneDelegate.swift */; };
 		17713E4426121A800046A613 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E4326121A800046A613 /* ContentView.swift */; };
 		17713E4626121A820046A613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17713E4526121A820046A613 /* Assets.xcassets */; };
 		17713E4926121A820046A613 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17713E4826121A820046A613 /* Preview Assets.xcassets */; };
 		17713E4C26121A820046A613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17713E4A26121A820046A613 /* LaunchScreen.storyboard */; };
+		17713E5726121D100046A613 /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E5626121D100046A613 /* UITextField+Publisher.swift */; };
+		17713E5C26121E300046A613 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E5A26121E300046A613 /* TextViewController.swift */; };
+		17713E5D26121E300046A613 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17713E5B26121E300046A613 /* TextViewController.xib */; };
+		17713E642612205F0046A613 /* UIControl+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E632612205F0046A613 /* UIControl+Publisher.swift */; };
+		17713E67261220860046A613 /* UIButton+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E66261220860046A613 /* UIButton+Publisher.swift */; };
+		17713E6B261223A20046A613 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E69261223A20046A613 /* SliderViewController.swift */; };
+		17713E6C261223A20046A613 /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17713E6A261223A20046A613 /* SliderViewController.xib */; };
+		17713E6F261224430046A613 /* UISlider+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E6E261224430046A613 /* UISlider+Publisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171C85602619B9EB000BDB18 /* UISwitch+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Publisher.swift"; sourceTree = "<group>"; };
+		171C85632619BEE0000BDB18 /* UIKeyboard publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKeyboard publisher.swift"; sourceTree = "<group>"; };
+		171C85662619BEFD000BDB18 /* UIScrollView+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Publisher.swift"; sourceTree = "<group>"; };
+		171C85692619C04D000BDB18 /* ScrollTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestViewController.swift; sourceTree = "<group>"; };
 		17713E3C26121A800046A613 /* DataFlowProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlowProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17713E3F26121A800046A613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17713E4126121A800046A613 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,14 @@
 		17713E4826121A820046A613 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17713E4B26121A820046A613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17713E4D26121A820046A613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17713E5626121D100046A613 /* UITextField+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
+		17713E5A26121E300046A613 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		17713E5B26121E300046A613 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		17713E632612205F0046A613 /* UIControl+Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Publisher.swift"; sourceTree = "<group>"; };
+		17713E66261220860046A613 /* UIButton+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Publisher.swift"; sourceTree = "<group>"; };
+		17713E69261223A20046A613 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		17713E6A261223A20046A613 /* SliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
+		17713E6E261224430046A613 /* UISlider+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Publisher.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171C855A2619B88A000BDB18 /* UIKit publisher helpers */ = {
+			isa = PBXGroup;
+			children = (
+				17713E632612205F0046A613 /* UIControl+Publisher.swift */,
+				17713E5626121D100046A613 /* UITextField+Publisher.swift */,
+				17713E66261220860046A613 /* UIButton+Publisher.swift */,
+				17713E6E261224430046A613 /* UISlider+Publisher.swift */,
+				171C85602619B9EB000BDB18 /* UISwitch+Publisher.swift */,
+				171C85632619BEE0000BDB18 /* UIKeyboard publisher.swift */,
+				171C85662619BEFD000BDB18 /* UIScrollView+Publisher.swift */,
+			);
+			path = "UIKit publisher helpers";
+			sourceTree = "<group>";
+		};
 		17713E3326121A800046A613 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +96,11 @@
 			children = (
 				17713E3F26121A800046A613 /* AppDelegate.swift */,
 				17713E4126121A800046A613 /* SceneDelegate.swift */,
-				17713E4326121A800046A613 /* ContentView.swift */,
-				17713E4526121A820046A613 /* Assets.xcassets */,
+				17713E5526121CE00046A613 /* swiftui */,
+				17713E5426121CD50046A613 /* UIKit 2 way binding */,
+				171C855A2619B88A000BDB18 /* UIKit publisher helpers */,
 				17713E4A26121A820046A613 /* LaunchScreen.storyboard */,
+				17713E4526121A820046A613 /* Assets.xcassets */,
 				17713E4D26121A820046A613 /* Info.plist */,
 				17713E4726121A820046A613 /* Preview Content */,
 			);
@@ -73,6 +113,26 @@
 				17713E4826121A820046A613 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17713E5426121CD50046A613 /* UIKit 2 way binding */ = {
+			isa = PBXGroup;
+			children = (
+				17713E5A26121E300046A613 /* TextViewController.swift */,
+				17713E5B26121E300046A613 /* TextViewController.xib */,
+				17713E69261223A20046A613 /* SliderViewController.swift */,
+				17713E6A261223A20046A613 /* SliderViewController.xib */,
+				171C85692619C04D000BDB18 /* ScrollTestViewController.swift */,
+			);
+			path = "UIKit 2 way binding";
+			sourceTree = "<group>";
+		};
+		17713E5526121CE00046A613 /* swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				17713E4326121A800046A613 /* ContentView.swift */,
+			);
+			path = swiftui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +194,9 @@
 			files = (
 				17713E4C26121A820046A613 /* LaunchScreen.storyboard in Resources */,
 				17713E4926121A820046A613 /* Preview Assets.xcassets in Resources */,
+				17713E6C261223A20046A613 /* SliderViewController.xib in Resources */,
 				17713E4626121A820046A613 /* Assets.xcassets in Resources */,
+				17713E5D26121E300046A613 /* TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17713E642612205F0046A613 /* UIControl+Publisher.swift in Sources */,
+				17713E5C26121E300046A613 /* TextViewController.swift in Sources */,
 				17713E4026121A800046A613 /* AppDelegate.swift in Sources */,
+				17713E6F261224430046A613 /* UISlider+Publisher.swift in Sources */,
+				171C85672619BEFD000BDB18 /* UIScrollView+Publisher.swift in Sources */,
+				171C85612619B9EB000BDB18 /* UISwitch+Publisher.swift in Sources */,
+				171C85642619BEE0000BDB18 /* UIKeyboard publisher.swift in Sources */,
+				17713E67261220860046A613 /* UIButton+Publisher.swift in Sources */,
 				17713E4226121A800046A613 /* SceneDelegate.swift in Sources */,
+				17713E5726121D100046A613 /* UITextField+Publisher.swift in Sources */,
 				17713E4426121A800046A613 /* ContentView.swift in Sources */,
+				17713E6B261223A20046A613 /* SliderViewController.swift in Sources */,
+				171C856A2619C04D000BDB18 /* ScrollTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
