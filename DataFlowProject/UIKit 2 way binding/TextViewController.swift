@@ -5,6 +5,8 @@
 //  Created by Karin Prater on 29.03.21.
 //
 
+//MARK: - data streams between Combine publisher and UITextField
+
 import UIKit
 import Combine
 
@@ -24,6 +26,7 @@ class TextViewController: UIViewController {
 //            textField.text = value
 //        }.store(in: &subscriptions)
         
+       
         textField.createBinding(with: textSubject, storeIn: &subscriptions)
         
         textSubject.sink { [unowned self] (value) in
