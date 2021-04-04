@@ -17,11 +17,6 @@ struct ContentView: View {
                 .padding()
             
             HStack {
-//                TextField("", text: $text) { (isChanged) in
-//                    
-//                } onCommit: {
-//                   
-//                }
 
                 TextField("Placeholder", text: $text)
                     .textFieldStyle(RoundedBorderTextFieldStyle())

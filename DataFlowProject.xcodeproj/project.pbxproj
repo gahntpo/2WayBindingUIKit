@@ -11,6 +11,8 @@
 		171C85642619BEE0000BDB18 /* UIKeyboard publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85632619BEE0000BDB18 /* UIKeyboard publisher.swift */; };
 		171C85672619BEFD000BDB18 /* UIScrollView+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85662619BEFD000BDB18 /* UIScrollView+Publisher.swift */; };
 		171C856A2619C04D000BDB18 /* ScrollTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C85692619C04D000BDB18 /* ScrollTestViewController.swift */; };
+		171C856E261A0A01000BDB18 /* Screenshot SwiftUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 171C856D261A0A01000BDB18 /* Screenshot SwiftUI.png */; };
+		171C8571261A0A07000BDB18 /* Screenshot UIkit.png in Resources */ = {isa = PBXBuildFile; fileRef = 171C8570261A0A07000BDB18 /* Screenshot UIkit.png */; };
 		17713E4026121A800046A613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E3F26121A800046A613 /* AppDelegate.swift */; };
 		17713E4226121A800046A613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E4126121A800046A613 /* SceneDelegate.swift */; };
 		17713E4426121A800046A613 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17713E4326121A800046A613 /* ContentView.swift */; };
@@ -32,6 +34,8 @@
 		171C85632619BEE0000BDB18 /* UIKeyboard publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKeyboard publisher.swift"; sourceTree = "<group>"; };
 		171C85662619BEFD000BDB18 /* UIScrollView+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Publisher.swift"; sourceTree = "<group>"; };
 		171C85692619C04D000BDB18 /* ScrollTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestViewController.swift; sourceTree = "<group>"; };
+		171C856D261A0A01000BDB18 /* Screenshot SwiftUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot SwiftUI.png"; sourceTree = "<group>"; };
+		171C8570261A0A07000BDB18 /* Screenshot UIkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot UIkit.png"; sourceTree = "<group>"; };
 		17713E3C26121A800046A613 /* DataFlowProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlowProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17713E3F26121A800046A613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17713E4126121A800046A613 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,9 +79,19 @@
 			path = "UIKit publisher helpers";
 			sourceTree = "<group>";
 		};
+		171C856C261A09AE000BDB18 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				171C856D261A0A01000BDB18 /* Screenshot SwiftUI.png */,
+				171C8570261A0A07000BDB18 /* Screenshot UIkit.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		17713E3326121A800046A613 = {
 			isa = PBXGroup;
 			children = (
+				171C856C261A09AE000BDB18 /* images */,
 				17713E3E26121A800046A613 /* DataFlowProject */,
 				17713E3D26121A800046A613 /* Products */,
 			);
@@ -193,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17713E4C26121A820046A613 /* LaunchScreen.storyboard in Resources */,
+				171C856E261A0A01000BDB18 /* Screenshot SwiftUI.png in Resources */,
+				171C8571261A0A07000BDB18 /* Screenshot UIkit.png in Resources */,
 				17713E4926121A820046A613 /* Preview Assets.xcassets in Resources */,
 				17713E6C261223A20046A613 /* SliderViewController.xib in Resources */,
 				17713E4626121A820046A613 /* Assets.xcassets in Resources */,

@@ -14,6 +14,10 @@ class TextViewController: UIViewController {
 
     let textSubject = CurrentValueSubject<String, Never>("Hello")
     var subscriptions = Set<AnyCancellable>()
+
+    @IBOutlet weak var lable: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var clearPressed: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,13 +43,6 @@ class TextViewController: UIViewController {
         
      
     }
-
-
-    @IBOutlet weak var lable: UILabel!
-    @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var clearPressed: UIButton!
-    
-    
     
     
 }
