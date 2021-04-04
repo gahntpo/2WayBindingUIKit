@@ -26,3 +26,27 @@ These create a data stream from a CurrentValueSubject to the UI control. A secon
 - UITextField has a **createBinding(with subject: CurrentValueSubject<String, Never>, storeIn subscriptions:)**
 - UISlider has a  **createBinding<T: BinaryFloatingPoint>(with subject: CurrentValueSubject<T, Never>, storeIn subscriptions:)**
 - UISwitch has a **createBinding(with subject: CurrentValueSubject<Bool, Never>, storeIn subscriptions:)**
+
+
+## As an example you can look in the TextViewController:
+    @IBOutlet var textField: UITextField!
+    textSubject = CurrentValueSubject<String, Never>("Hello")
+    var subscriptions = Set<AnyCancellable>()
+       
+    override func viewDidLoad() {
+        super.viewDidLoad() 
+        
+       //  creates 2 data streams
+        textField.textPublisher().sink { [unowned self] (value) in
+            self.textSubject.send(value)
+        }.store(in: &subscriptions)
+
+        textSubject.assign(to: \.text, on: textField)
+         .store(in: &subscriptions)
+         
+        //creates 2 data streams in one step
+       textField.createBinding(with: textSubject, storeIn: &subscriptions)
+   }
+   
+
+
