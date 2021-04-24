@@ -10,6 +10,8 @@ The backpressure is handled according to Combine framework standards.
 You can see this the way the demand from the subscriber drives the way values are send to the subscriber.
 For more information, check the WWWDC presentation about [Introducing Combine](https://developer.apple.com/videos/play/wwdc2019/722/) around 06:11min.
 
+I made a Youtube tutorial about this approach. You can check it out here [->](https://youtu.be/6-8PjXQE12s)
+
 ## 1-way-Binding: 
 I added data streams for the following UIKit views. These create data streams from uicontrol views
 - UITextField has a **textPublisher()** -> AnyPublisher<String, Never>
